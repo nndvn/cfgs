@@ -1,33 +1,34 @@
-# @nndvn/cfgs
-
 ![@nndvn/cfgs](https://socialify.git.ci/nndvn/cfgs/image?description=1&font=Inter&name=1&owner=1&pattern=Floating+Cogs&theme=Dark)
 
-![version](https://img.shields.io/github/package-json/v/nndvn/cfgs?style=default&logo=git&logoColor=white&color=10069F&label=version)
-![license](https://img.shields.io/github/license/nndvn/cfgs?logo=opensourceinitiative&logoColor=white&color=10069F&label=license)
-![biome](https://img.shields.io/npm/v/%40biomejs%2Fbiome?logo=biome&logoColor=white&color=10069F&label=biome)
-![bun](https://img.shields.io/github/v/release/oven-sh/bun?logo=bun&logoColor=white&color=10069F&label=bun)
-![zed](https://img.shields.io/github/v/release/zed-industries/zed?style=default&logo=zedindustries&logoColor=white&color=10069F&label=zed)
+# @nndvn/cfgs
+
+![NPM Version](https://img.shields.io/npm/v/@nndvn/cfgs?style=flat-square&logo=npm&logoColor=white&color=10069F&label=npm)
+![GitHub Version](https://img.shields.io/github/package-json/v/nndvn/cfgs?style=flat-square&logo=github&logoColor=white&color=10069F&label=github)
+![license](https://img.shields.io/github/license/nndvn/cfgs?style=flat-square&logo=opensourceinitiative&logoColor=white&color=10069F&label=license)
+![biome](https://img.shields.io/npm/v/%40biomejs%2Fbiome?style=flat-square&logo=biome&logoColor=white&color=10069F&label=biome)
+![bun](https://img.shields.io/github/v/release/oven-sh/bun?style=flat-square&logo=bun&logoColor=white&color=10069F&label=bun)
+![zed](https://img.shields.io/github/v/release/zed-industries/zed?style=flat-square&logo=zedindustries&logoColor=white&color=10069F&label=zed)
 ![vscode](https://img.shields.io/github/v/release/microsoft/vscode?style=flat-square&logo=vscodium&logoColor=white&color=10069F&label=vscode)
 
-My personal editor configurations: VSCode, Zed, Biome, EditorConfig,...
+My editor configurations: biome, editorconfig, vscode, zed,...
 
 <details open>
 <summary>:book: Table of Contents</summary>
 
-* :hammer_and_pick: [Installation](#hammer_and_pick-installation)
+* 🛠️ [Installation](#-installation)
     * 1. [Install package](#install-package)
     * 2. [Install package](#install-package)
-* :gear: [Usage](#gear-usage)
+* ⚙️ [Usage](#-usage)
     * 1. [Biome](#biome)
     * 2. [Zed](#zed)
     * 3. [EditorConfig](#editorconfig)
     * 4. [VSCode](#vscode)
-* 🎗[License](#shield-license)
-* :raised_hands: [Acknowledgements](#-acknowledgements)
+* 🎗[License](#-license)
+* 🙌 [Acknowledgements](#-acknowledgements)
 
 </details>
 
-## :hammer_and_pick: Installation
+## 🛠️ Installation
 
 > [!WARNING]
 > This repository is not distributed as a package
@@ -37,21 +38,22 @@ My personal editor configurations: VSCode, Zed, Biome, EditorConfig,...
 :warning: **Note:** install package from github
 
 ```bash
-bun add --dev --exact git+https://github.com/nndvn/cfgs.git # @nndvn/cfgs
+bun add --dev --exact git+https://github.com/nndvn/cfgs.git
 ```
 
 ### 2. Install package
 
 `WIP`
 
-## :gear: Usage
+## ⚙️ Usage
 
 ### Biome
 
-Add the `extends` array to your project's `biome.json` file:
+Add the following to your `<project-root>/biome.json` file:
+
+<!-- Add the `extends` array to your project's `biome.json` file: -->
 
 ```jsonc
-// <project-root>/biome.jsonc
 {
     "$schema": "https://biomejs.dev/schemas/2.0.6/schema.json",
     "extends": ["@nndvn/cfgs"],
@@ -59,10 +61,9 @@ Add the `extends` array to your project's `biome.json` file:
 }
 ```
 
-Add scripts to your `package.json` if you haven't already:
+Add scripts to your `<project-root>/package.json` if you haven't already:
 
 ```jsonc
-// <project-root>/package.json
 {
     //...
     "scripts": {
@@ -168,7 +169,7 @@ biome ci .
 
 This project is licensed under the [MIT](LICENSE) license.
 
-## :raised_hands: Acknowledgements
+## 🙌 Acknowledgements
 
  - [EditorConfig](https://editorconfig.org/)
  - [VSCode](https://code.visualstudio.com/docs/configure/settings#_workspace-settings)
