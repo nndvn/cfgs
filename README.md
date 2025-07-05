@@ -30,10 +30,11 @@ My editor configurations: biome, editorconfig, vscode, zed,...
 
 ## 🛠️ Installation
 
-> [!WARNING]
-> This repository is not distributed as a package
-
 ### 1. Install package
+
+> [!WARNING]
+> This repository is not distributed as a package; please install it directly from the GitHub repository.
+> This repository isn't available as a traditional package. To use it, you'll need to install it directly from GitHub repository.
 
 :warning: **Note:** install package from github
 
