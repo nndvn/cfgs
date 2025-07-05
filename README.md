@@ -12,10 +12,11 @@ My personal editor configurations: VSCode, Zed, Biome, EditorConfig,...
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
+  * [Biome](#biome)
 * [Links](#links)
 * [License](#license)
 
-## [🛠️ Installation](#installation)
+## :tent: Installation
 
 > [!WARNING]
 > This repository is not distributed as a package
