@@ -12,11 +12,13 @@ My personal editor configurations: VSCode, Zed, Biome, EditorConfig,...
 ## :book: Table of Contents
 
 * :hammer_and_pick: [Installation](#hammer_and_pick-installation)
+    * 1. [Install package](#install-package)
+    * 2. [Install package](#install-package)
 * :gear: [Usage](#gear-usage)
-  * [Biome](#biome)
-  * [Zed](#zed)
-  * [EditorConfig](#editorconfig)
-  * [VSCode](#vscode)
+    * 1. [Biome](#biome)
+    * 2. [Zed](#zed)
+    * 3. [EditorConfig](#editorconfig)
+    * 4. [VSCode](#vscode)
 * :link: [Links](#link-links)
 * :shield:[License](#shield-license)
 
@@ -151,7 +153,7 @@ Add the following settings to your `.zed/settings.json` file:
 
 ### Continuous Integration 
 
-🚧 https://biomejs.dev/recipes/continuous-integration/
+:construction: https://biomejs.dev/recipes/continuous-integration/
 
 ```bash
 biome ci .
