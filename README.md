@@ -9,6 +9,23 @@
 
 My personal editor configurations: VSCode, Zed, Biome, EditorConfig,...
 
+<details>
+    <summary>Table of Contents</summary>
+- [📍 Overview](#-overview)
+- [👾 Features](#-features)
+- [📁 Project Structure](#-project-structure)
+  - [📂 Project Index](#-project-index)
+- [🚀 Getting Started](#-getting-started)
+  - [☑️ Prerequisites](#-prerequisites)
+  - [⚙️ Installation](#-installation)
+  - [🤖 Usage](#🤖-usage)
+  - [🧪 Testing](#🧪-testing)
+- [📌 Project Roadmap](#-project-roadmap)
+- [🔰 Contributing](#-contributing)
+- [🎗 License](#-license)
+- [🙌 Acknowledgments](#-acknowledgments)
+</details>
+
 ## :book: Table of Contents
 
 * :hammer_and_pick: [Installation](#hammer_and_pick-installation)
