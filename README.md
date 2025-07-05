@@ -1,19 +1,28 @@
 # @nndvn/cfgs
 
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/nndvn/cfgs?logo=subversion&label=Version)
-![GitHub License](https://img.shields.io/github/license/nndvn/cfgs?logo=unlicense&label=License)
-![NPM Version](https://img.shields.io/npm/v/%40biomejs%2Fbiome-sss?logo=biome)
-![NPM Version](https://img.shields.io/npm/v/bun?logo=bun&label=Bun)
+![GitHub License](https://img.shields.io/github/license/nndvn/cfgs?logo=mit&label=License)
+![NPM Version](https://img.shields.io/npm/v/%40biomejs%2Fbiome?logo=biome&logoColor=white&label=biome)
+![GitHub Release](https://img.shields.io/github/v/release/oven-sh/bun?logo=bun&label=Bun)
 ![GitHub Release](https://img.shields.io/github/v/release/zed-industries/zed?logo=zedindustries&label=Zed)
 ![GitHub Release](https://img.shields.io/github/v/release/microsoft/vscode?logo=vscodium&label=Visual+Studio+Code)
 
-> My personal editor configurations (EditorConfig, VSCode, Zed, Biome).
+My personal editor configurations (EditorConfig, VSCode, Zed, Biome).
 
-## Installation
+## Table of Contents
+* [Installation](#installation)
+* [Usage](#usage)
+* [Links](#links)
+* [License](#license)
+
+## 🛠️ Installation
+
+> [!WARNING]
+> This repository is not distributed as a package
 
 ```bash
 # bun/npm/pnpm/yarn
-bun add --dev --exact @biomejs/biome git+https://github.com/nndvn/cfgs.git
+bun add --dev --exact @biomejs/biome git+https://github.com/nndvn/cfgs.git # @nndvn/cfgs
 ```
 
 ## Usage
@@ -38,13 +47,13 @@ Add scripts to your `package.json` if you haven't already:
 {
     //...
     "scripts": {
-		"format": "biome format .",
-		"format:fix": "biome format --write .",
-		"lint": "biome lint .",
-		"lint:fix": "biome lint  --write .",
-		"check": "biome check .",
-		"check:fix": "biome check --write ."
-	},
+        "format": "biome format .",
+        "format:fix": "biome format --write .",
+        "lint": "biome lint .",
+        "lint:fix": "biome lint  --write .",
+        "check": "biome check .",
+        "check:fix": "biome check --write ."
+    },
     // ...
 }
 ```
@@ -80,9 +89,9 @@ Add the following extensions to your `.vscode/extensions.json` file:
 ```json
 // <project-root>/.vscode/extensions.json
 {
-	"recommendations": [
-		"biomejs.biome"
-	]
+    "recommendations": [
+        "biomejs.biome"
+    ]
 }
 ```
 
@@ -91,15 +100,15 @@ Add the following settings to your `.vscode/settings.json` file:
 ```json
 // <project-root>/.vscode/settings.json
 {
-	"[javascript][typescript][json]": {
-		"editor.defaultFormatter": "biomejs.biome",
-		"editor.formatOnPaste": true,
-		"editor.formatOnSave": true,
-		"editor.codeActionsOnSave": {
-			"source.fixAll.biome": "explicit",
-			"source.organizeImports.biome": "explicit"
-		}
-	}
+    "[javascript][typescript][json]": {
+        "editor.defaultFormatter": "biomejs.biome",
+        "editor.formatOnPaste": true,
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.fixAll.biome": "explicit",
+            "source.organizeImports.biome": "explicit"
+        }
+    }
 }
 ```
 
@@ -110,21 +119,21 @@ Add the following settings to your `.zed/settings.json` file:
 ```json
 // <project-root>/.zed/settings.json
 {
-	"auto_install_extensions": {
-		"biome": true
-	},
-	"file_types": {
-		"Shell Script": [".editorconfig"]
-	},
-	"formatter": {
-		"language_server": {
-			"name": "biome"
-		}
-	},
-	"code_actions_on_format": {
-		"source.organizeImports.biome": true,
-		"source.fixAll.biome": true
-	}
+    "auto_install_extensions": {
+        "biome": true
+    },
+    "file_types": {
+        "Shell Script": [".editorconfig"]
+    },
+    "formatter": {
+        "language_server": {
+            "name": "biome"
+        }
+    },
+    "code_actions_on_format": {
+        "source.organizeImports.biome": true,
+        "source.fixAll.biome": true
+    }
 }
 ```
 
@@ -145,6 +154,6 @@ biome ci .
  - [Biome extension for VSCode](https://github.com/biomejs/biome-vscode) https://biomejs.dev/reference/vscode/
  - [Biome extension for Zed](https://github.com/biomejs/biome-zed) https://biomejs.dev/reference/zed/
 
-## License
+## 🛡️ License:
 
-[MIT](https://choosealicense.com/licenses/mit/)
+This project is licensed under the [MIT](LICENSE) license.
