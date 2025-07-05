@@ -10,15 +10,7 @@
 My personal editor configurations: VSCode, Zed, Biome, EditorConfig,...
 
 <details open>
-<summary>Shopping list</summary>
-
-* Vegetables
-* Fruits
-* Fish
-
-</details>
-
-## :book: Table of Contents
+<summary>:book: Table of Contents</summary>
 
 * :hammer_and_pick: [Installation](#hammer_and_pick-installation)
     * 1. [Install package](#install-package)
@@ -30,6 +22,8 @@ My personal editor configurations: VSCode, Zed, Biome, EditorConfig,...
     * 4. [VSCode](#vscode)
 * :sparkles: [Acknowledgements](#sparkles-acknowledgements)
 * :shield:[License](#shield-license)
+
+</details>
 
 ## :hammer_and_pick: Installation
 
@@ -168,7 +162,11 @@ Add the following settings to your `.zed/settings.json` file:
 biome ci .
 ```
 
-## :sparkles: Acknowledgements
+## :shield: License
+
+This project is licensed under the [MIT](LICENSE) license.
+
+## :raised_hands: Acknowledgements
 
  - [EditorConfig](https://editorconfig.org/)
  - [VSCode](https://code.visualstudio.com/docs/configure/settings#_workspace-settings)
@@ -176,7 +174,3 @@ biome ci .
  - [Biome](https://biomejs.dev/guides/getting-started/)
  - [Biome extension for VSCode](https://github.com/biomejs/biome-vscode) https://biomejs.dev/reference/vscode/
  - [Biome extension for Zed](https://github.com/biomejs/biome-zed) https://biomejs.dev/reference/zed/
-
-## :shield: License
-
-This project is licensed under the [MIT](LICENSE) license.
