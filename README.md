@@ -9,12 +9,14 @@
 
 My personal editor configurations: VSCode, Zed, Biome, EditorConfig,...
 
+---
 ## Table of Contents
-* [Installation](#installation)
-* [Usage](#usage)
+* [Installation](#hammer_and_pick-installation)
+* [Usage](#gear-usage)
   * [Biome](#biome)
-* [Links](#links)
-* [License](#license)
+* [Links](#link-links)
+* [License](#shield-license)
+---
 
 ## :hammer_and_pick: Installation
 
@@ -26,7 +28,7 @@ My personal editor configurations: VSCode, Zed, Biome, EditorConfig,...
 bun add --dev --exact @biomejs/biome git+https://github.com/nndvn/cfgs.git # @nndvn/cfgs
 ```
 
-## Usage
+## :gear: Usage
 
 ### Biome
 
@@ -155,6 +157,6 @@ biome ci .
  - [Biome extension for VSCode](https://github.com/biomejs/biome-vscode) https://biomejs.dev/reference/vscode/
  - [Biome extension for Zed](https://github.com/biomejs/biome-zed) https://biomejs.dev/reference/zed/
 
-## :shield: License:
+## :shield: License
 
 This project is licensed under the [MIT](LICENSE) license.
