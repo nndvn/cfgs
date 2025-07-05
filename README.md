@@ -1,6 +1,13 @@
-# cfgs
+# @nndvn/cfgs
 
 > My personal editor configurations (EditorConfig, VSCode, Zed, Biome).
+
+![GitHub package.json version](https://img.shields.io/github/package-json/v/nndvn/cfgs?logo=subversion&label=Version)
+![GitHub License](https://img.shields.io/github/license/nndvn/cfgs?logo=unlicense&label=License)
+![NPM Version](https://img.shields.io/npm/v/%40biomejs%2Fbiome-sss?logo=biome)
+![NPM Version](https://img.shields.io/npm/v/bun?logo=bun&label=Bun)
+![GitHub Release](https://img.shields.io/github/v/release/zed-industries/zed?logo=zedindustries&label=Zed)
+![GitHub Release](https://img.shields.io/github/v/release/microsoft/vscode?logo=vscodium&label=Visual+Studio+Code)
 
 ## Installation
 
@@ -13,20 +20,20 @@ bun add --dev --exact @biomejs/biome git+https://github.com/nndvn/cfgs.git
 
 ### Biome
 
-Add the `extends` array to your project's `biome.jsonc` file:
+Add the `extends` array to your project's `biome.json` file:
 
 ```jsonc
 // <project-root>/biome.jsonc
 {
     "$schema": "https://biomejs.dev/schemas/2.0.6/schema.json",
-    "extends": ["@nndvn/cfgs/biome"],
+    "extends": ["@nndvn/cfgs"],
     // ...
 }
 ```
 
 Add scripts to your `package.json` if you haven't already:
 
-```json
+```jsonc
 // <project-root>/package.json
 {
     //...
@@ -68,7 +75,7 @@ bunx biome check --write <files>
 
 #### Visual Studio Code
 
-Add `.vscode/extensions.json` file:
+Add the following extensions to your `.vscode/extensions.json` file:
 
 ```json
 // <project-root>/.vscode/extensions.json
@@ -79,7 +86,7 @@ Add `.vscode/extensions.json` file:
 }
 ```
 
-Add `.vscode/settings.json` file:
+Add the following settings to your `.vscode/settings.json` file:
 
 ```json
 // <project-root>/.vscode/settings.json
@@ -98,7 +105,7 @@ Add `.vscode/settings.json` file:
 
 #### Zed
 
-Add `.zed/settings.json` file:
+Add the following settings to your `.zed/settings.json` file:
 
 ```json
 // <project-root>/.zed/settings.json
@@ -121,9 +128,9 @@ Add `.zed/settings.json` file:
 }
 ```
 
-### Continuous Integration
+### Continuous Integration 
 
-https://biomejs.dev/recipes/continuous-integration/
+[WIP](https://biomejs.dev/recipes/continuous-integration/)
 
 ```bash
 biome ci .
