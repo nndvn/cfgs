@@ -9,7 +9,8 @@
 
 My personal editor configurations: VSCode, Zed, Biome, EditorConfig,...
 
-## Table of Contents
+## :book: Table of Contents
+
 * :hammer_and_pick: [Installation](#hammer_and_pick-installation)
 * :gear: [Usage](#gear-usage)
   * [Biome](#biome)
@@ -24,10 +25,16 @@ My personal editor configurations: VSCode, Zed, Biome, EditorConfig,...
 > [!WARNING]
 > This repository is not distributed as a package
 
+### 1. Install package
+
 ```bash
 # bun/npm/pnpm/yarn
 bun add --dev --exact @biomejs/biome git+https://github.com/nndvn/cfgs.git # @nndvn/cfgs
 ```
+
+### 2. Install package
+
+`WIP`
 
 ## :gear: Usage
 
