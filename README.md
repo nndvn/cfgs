@@ -1,13 +1,13 @@
 # @nndvn/cfgs
 
-![GitHub package.json version](https://img.shields.io/github/package-json/v/nndvn/cfgs?logo=subversion&label=Version)
-![GitHub License](https://img.shields.io/github/license/nndvn/cfgs?logo=mit&label=License)
+![GitHub package.json version](https://img.shields.io/github/package-json/v/nndvn/cfgs?label=version)
+![GitHub License](https://img.shields.io/github/license/nndvn/cfgs?label=license)
 ![NPM Version](https://img.shields.io/npm/v/%40biomejs%2Fbiome?logo=biome&logoColor=white&label=biome)
-![GitHub Release](https://img.shields.io/github/v/release/oven-sh/bun?logo=bun&label=Bun)
-![GitHub Release](https://img.shields.io/github/v/release/zed-industries/zed?logo=zedindustries&label=Zed)
-![GitHub Release](https://img.shields.io/github/v/release/microsoft/vscode?logo=vscodium&label=Visual+Studio+Code)
+![GitHub Release](https://img.shields.io/github/v/release/oven-sh/bun?logo=bun&label=bun)
+![GitHub Release](https://img.shields.io/github/v/release/zed-industries/zed?logo=zedindustries&label=zed)
+![GitHub Release](https://img.shields.io/github/v/release/microsoft/vscode?logo=vscodium&label=vscode&style=flat-square)
 
-My personal editor configurations (EditorConfig, VSCode, Zed, Biome).
+My personal editor configurations: VSCode, Zed, Biome, EditorConfig,...
 
 ## Table of Contents
 * [Installation](#installation)
@@ -15,7 +15,7 @@ My personal editor configurations (EditorConfig, VSCode, Zed, Biome).
 * [Links](#links)
 * [License](#license)
 
-## 🛠️ Installation
+## 🛠️ Installation {#installation}
 
 > [!WARNING]
 > This repository is not distributed as a package
@@ -139,7 +139,7 @@ Add the following settings to your `.zed/settings.json` file:
 
 ### Continuous Integration 
 
-[WIP](https://biomejs.dev/recipes/continuous-integration/)
+🚧 https://biomejs.dev/recipes/continuous-integration/
 
 ```bash
 biome ci .
