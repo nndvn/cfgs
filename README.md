@@ -19,7 +19,7 @@ My personal editor configurations: VSCode, Zed, Biome, EditorConfig,...
     * 2. [Zed](#zed)
     * 3. [EditorConfig](#editorconfig)
     * 4. [VSCode](#vscode)
-* :link: [Links](#link-links)
+* :sparkles: [Acknowledgements](#sparkles-acknowledgements)
 * :shield:[License](#shield-license)
 
 ## :hammer_and_pick: Installation
@@ -159,7 +159,7 @@ Add the following settings to your `.zed/settings.json` file:
 biome ci .
 ```
 
-## :link: Links/Acknowledgements
+## :sparkles: Acknowledgements
 
  - [EditorConfig](https://editorconfig.org/)
  - [VSCode](https://code.visualstudio.com/docs/configure/settings#_workspace-settings)
