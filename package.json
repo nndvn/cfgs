@@ -29,13 +29,14 @@
 		"json",
 		"bun"
 	],
-	"license": "UNLICENSED",
+	"license": "MIT",
 	"main": "biome.jsonc",
 	"name": "@nndvn/cfgs",
 	"peerDependencies": {
 		"@biomejs/biome": "2.0.6",
 		"typescript": "^5"
 	},
+	"private": true,
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/nndvn/cfgs.git"
