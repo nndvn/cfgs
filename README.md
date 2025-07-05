@@ -1,6 +1,6 @@
 # cfgs
 
-My personal editor configurations (EditorConfig, VSCode, Zed, Biome).
+> My personal editor configurations (EditorConfig, VSCode, Zed, Biome).
 
 ## Installation
 
@@ -9,13 +9,17 @@ My personal editor configurations (EditorConfig, VSCode, Zed, Biome).
 bun add --dev --exact @biomejs/biome git+https://github.com/nndvn/cfgs.git
 ```
 
+## Usage
+
+### Biome
+
 Add the `extends` array to your project's `biome.jsonc` file:
 
 ```jsonc
 // <project-root>/biome.jsonc
 {
     "$schema": "https://biomejs.dev/schemas/2.0.6/schema.json",
-    "extends": ["cfgs/biome"],
+    "extends": ["@nndvn/cfgs/biome"],
     // ...
 }
 ```
@@ -37,8 +41,6 @@ Add scripts to your `package.json` if you haven't already:
     // ...
 }
 ```
-
-## Usage/Examples
 
 ### Command-line interface
 
