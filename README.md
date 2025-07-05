@@ -1,13 +1,13 @@
 # @nndvn/cfgs
 
-> My personal editor configurations (EditorConfig, VSCode, Zed, Biome).
-
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/nndvn/cfgs?logo=subversion&label=Version)
 ![GitHub License](https://img.shields.io/github/license/nndvn/cfgs?logo=unlicense&label=License)
 ![NPM Version](https://img.shields.io/npm/v/%40biomejs%2Fbiome-sss?logo=biome)
 ![NPM Version](https://img.shields.io/npm/v/bun?logo=bun&label=Bun)
 ![GitHub Release](https://img.shields.io/github/v/release/zed-industries/zed?logo=zedindustries&label=Zed)
 ![GitHub Release](https://img.shields.io/github/v/release/microsoft/vscode?logo=vscodium&label=Visual+Studio+Code)
+
+> My personal editor configurations (EditorConfig, VSCode, Zed, Biome).
 
 ## Installation
 
