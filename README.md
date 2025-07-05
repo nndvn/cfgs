@@ -9,18 +9,13 @@
 
 My personal editor configurations: VSCode, Zed, Biome, EditorConfig,...
 
-<details>
-    <summary>Table of Contents</summary>
-    * :hammer_and_pick: [Installation](#hammer_and_pick-installation)
-        * 1. [Install package](#install-package)
-        * 2. [Install package](#install-package)
-    * :gear: [Usage](#gear-usage)
-        * 1. [Biome](#biome)
-        * 2. [Zed](#zed)
-        * 3. [EditorConfig](#editorconfig)
-        * 4. [VSCode](#vscode)
-    * :sparkles: [Acknowledgements](#sparkles-acknowledgements)
-    * :shield:[License](#shield-license)
+<details open>
+<summary>Shopping list</summary>
+
+* Vegetables
+* Fruits
+* Fish
+
 </details>
 
 ## :book: Table of Contents
