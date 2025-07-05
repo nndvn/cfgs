@@ -9,14 +9,15 @@
 
 My personal editor configurations: VSCode, Zed, Biome, EditorConfig,...
 
----
 ## Table of Contents
-* [:hammer_and_pick: Installation](#hammer_and_pick-installation)
+* :hammer_and_pick: [Installation](#hammer_and_pick-installation)
 * :gear: [Usage](#gear-usage)
   * [Biome](#biome)
-* [Links](#link-links)
-* [License](#shield-license)
----
+  * [Zed](#zed)
+  * [EditorConfig](#editorconfig)
+  * [VSCode](#vscode)
+* :link: [Links](#link-links)
+* :shield:[License](#shield-license)
 
 ## :hammer_and_pick: Installation
 
