@@ -1,11 +1,11 @@
 # @nndvn/cfgs
 
-![license](https://img.shields.io/github/license/nndvn/cfgs?logo=opensourceinitiative&logoColor=white&color=0080ff&label=license)
 ![version](https://img.shields.io/github/package-json/v/nndvn/cfgs?style=default&logo=git&logoColor=white&color=0080ff&label=version)
-![NPM Version](https://img.shields.io/npm/v/%40biomejs%2Fbiome?logo=biome&logoColor=white&color=0080ff&label=biome)
-![GitHub Release](https://img.shields.io/github/v/release/oven-sh/bun?logo=bun&logoColor=white&color=0080ff&label=bun)
-![GitHub Release](https://img.shields.io/github/v/release/zed-industries/zed?style=default&logo=zedindustries&logoColor=white&color=0080ff&label=zed)
-![GitHub Release](https://img.shields.io/github/v/release/microsoft/vscode?style=flat-square&logo=vscodium&logoColor=white&color=0080ff&label=vscode)
+![license](https://img.shields.io/github/license/nndvn/cfgs?logo=opensourceinitiative&logoColor=white&color=0080ff&label=license)
+![biome](https://img.shields.io/npm/v/%40biomejs%2Fbiome?logo=biome&logoColor=white&color=0080ff&label=biome)
+![bun](https://img.shields.io/github/v/release/oven-sh/bun?logo=bun&logoColor=white&color=0080ff&label=bun)
+![zed](https://img.shields.io/github/v/release/zed-industries/zed?style=default&logo=zedindustries&logoColor=white&color=0080ff&label=zed)
+![vscode](https://img.shields.io/github/v/release/microsoft/vscode?style=flat-square&logo=vscodium&logoColor=white&color=0080ff&label=vscode)
 
 My personal editor configurations: VSCode, Zed, Biome, EditorConfig,...
 
@@ -20,8 +20,8 @@ My personal editor configurations: VSCode, Zed, Biome, EditorConfig,...
     * 2. [Zed](#zed)
     * 3. [EditorConfig](#editorconfig)
     * 4. [VSCode](#vscode)
-* :sparkles: [Acknowledgements](#sparkles-acknowledgements)
 * :shield:[License](#shield-license)
+* :raised_hands: [Acknowledgements](#-acknowledgements)
 
 </details>
 
