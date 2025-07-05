@@ -15,7 +15,7 @@ My personal editor configurations: VSCode, Zed, Biome, EditorConfig,...
 * [Links](#links)
 * [License](#license)
 
-## 🛠️ Installation {#installation}
+## [🛠️ Installation](#installation)
 
 > [!WARNING]
 > This repository is not distributed as a package
