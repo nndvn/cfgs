@@ -27,9 +27,10 @@ My personal editor configurations: VSCode, Zed, Biome, EditorConfig,...
 
 ### 1. Install package
 
+:warning: **Note:** install package from github
+
 ```bash
-# bun/npm/pnpm/yarn
-bun add --dev --exact @biomejs/biome git+https://github.com/nndvn/cfgs.git # @nndvn/cfgs
+bun add --dev --exact git+https://github.com/nndvn/cfgs.git # @nndvn/cfgs
 ```
 
 ### 2. Install package
