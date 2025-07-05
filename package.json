@@ -1,0 +1,53 @@
+{
+  "name": "cfgs",
+  "version": "0.0.1",
+  "keywords": [
+    "config",
+    "configuration",
+    "editorconfig",
+    "vscode",
+    "zed",
+    "biome",
+    "formatter",
+    "linter",
+    "typescript",
+    "javascript",
+    "json",
+    "bun"
+  ],
+  "description": "My personal editor configurations (EditorConfig, VSCode, Zed, Biome).",
+  "homepage": "https://github.com/nndvn/cfgs#readme",
+  "bugs": {
+    "url": "https://github.com/nndvn/cfgs/issues"
+  },
+  "license": "UNLICENSED",
+  "author": "NND <d@nnd.vn> (https://nnd.vn/)",
+  "files": [
+    "biome.jsonc"
+  ],
+  "exports": {
+    ".": "./biome.jsonc",
+    "./biome": "./biome.jsonc"
+  },
+  "main": "biome.jsonc",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nndvn/cfgs.git"
+  },
+  "scripts": {
+    "format": "biome format .",
+    "format:fix": "biome format --write .",
+    "lint": "biome lint .",
+    "lint:fix": "biome lint  --write .",
+    "check": "biome check .",
+    "check:fix": "biome check --write ."
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "@biomejs/biome": "2.0.6",
+    "typescript": "^5"
+  },
+  "type": "module"
+}
