@@ -16,7 +16,7 @@ My personal editor configurations: VSCode, Zed, Biome, EditorConfig,...
 * [Links](#links)
 * [License](#license)
 
-## :tent: Installation
+## :hammer_and_pick: Installation
 
 > [!WARNING]
 > This repository is not distributed as a package
@@ -146,7 +146,7 @@ Add the following settings to your `.zed/settings.json` file:
 biome ci .
 ```
 
-## Links/Acknowledgements
+## :link: Links/Acknowledgements
 
  - [EditorConfig](https://editorconfig.org/)
  - [VSCode](https://code.visualstudio.com/docs/configure/settings#_workspace-settings)
@@ -155,6 +155,6 @@ biome ci .
  - [Biome extension for VSCode](https://github.com/biomejs/biome-vscode) https://biomejs.dev/reference/vscode/
  - [Biome extension for Zed](https://github.com/biomejs/biome-zed) https://biomejs.dev/reference/zed/
 
-## 🛡️ License:
+## :shield: License:
 
 This project is licensed under the [MIT](LICENSE) license.
