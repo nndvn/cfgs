@@ -5,15 +5,15 @@
 [![Github package.json version](https://img.shields.io/github/package-json/v/nndvn/cfgs?style=flat-square&logo=github&logoColor=white&color=10069F&label=github)](#)
 [![NPM package version](https://img.shields.io/npm/v/@nndvn/cfgs?style=flat-square&logo=npm&logoColor=white&color=10069F&label=npm)](#)
 
+# `@nndvn/cfgs`
+
+> My editor configurations: Biome, Bun, EditorConfig, VSCode, Zed, ...
+
 [![Biome](https://img.shields.io/badge/biome-24272f?style=for-the-badge&logo=biome)](https://github.com/biomejs/biome)
 [![Bun](https://img.shields.io/badge/bun-141519?style=for-the-badge&logo=bun)](https://github.com/oven-sh/bun)
 [![EditorConfig](https://img.shields.io/badge/editorconfig-e0efef?style=for-the-badge&logo=editorconfig&logoColor=black)](https://editorconfig.org)
 [![Visual Code Studio](https://img.shields.io/badge/vscode-0d1117?style=for-the-badge&logo=vscodium)](https://github.com/microsoft/vscode)
 [![Zed](https://img.shields.io/badge/zed-0751cf?style=for-the-badge&logo=zedindustries)](https://github.com/zed-industries/zed)
-
-# `@nndvn/cfgs`
-
-> My editor configurations: Biome, Bun, EditorConfig, VSCode, Zed, ...
 
 <br>
 
