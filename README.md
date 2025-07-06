@@ -1,8 +1,29 @@
-![@nndvn/cfgs](https://socialify.git.ci/nndvn/cfgs/image?custom_description=My+editor+configurations%3A+Biome%2C+Bun%2C+EditorConfig%2C+VSCode%2C+Zed%2C+...&description=1&font=JetBrains+Mono&name=1&owner=1&pattern=Floating+Cogs&theme=Dark)
-
 <p align="center">
 	<img src="https://socialify.git.ci/nndvn/cfgs/image?custom_description=My+editor+configurations%3A+Biome%2C+Bun%2C+EditorConfig%2C+VSCode%2C+Zed%2C+...&description=1&font=JetBrains+Mono&name=1&owner=1&pattern=Floating+Cogs&theme=Dark" alt="readme-ai-banner" width="800">
 </p>
+
+<p align="center">
+	<em><code>@nndvn/cfgs</code></em>
+</p>
+
+<p align="center">
+    <img src="https://img.shields.io/github/license/nndvn/cfgs?style=flat-square&logo=opensourceinitiative&logoColor=white&color=10069F&label=license" alt="License">
+    <img src="https://img.shields.io/github/last-commit/nndvn/cfgs?style=flat-square&logo=opensourceinitiative&logoColor=white&color=10069F&label=last+commit" alt="Last commit">
+    <img src="https://img.shields.io/github/package-json/v/nndvn/cfgs?style=flat-square&logo=opensourceinitiative&logoColor=white&color=10069F&label=github" alt="Github package.json version">
+    <img src="https://img.shields.io/npm/v/@nndvn/cfgs?style=flat-square&logo=opensourceinitiative&logoColor=white&color=10069F&label=npm" alt="NPM package version">
+</p>
+
+<p align="center">My editor configurations: Biome, Bun, EditorConfig, VSCode, Zed, ...</p>
+
+<p align="center">
+    <img src="https://img.shields.io/badge/biome-24272f?style=for-the-badge&logo=biome" alt="Biome">
+    <img src="https://img.shields.io/badge/bun-141519?style=for-the-badge&logo=bun" alt="Bun">
+    <img src="https://img.shields.io/badge/editorconfig-e0efef?style=for-the-badge&logo=editorconfig&logoColor=black" alt="EditorConfig">
+    <img src="https://img.shields.io/badge/zed-0751cf?style=for-the-badge&logo=zedindustries" alt="Zed">
+</p>
+
+---
+![@nndvn/cfgs](https://socialify.git.ci/nndvn/cfgs/image?custom_description=My+editor+configurations%3A+Biome%2C+Bun%2C+EditorConfig%2C+VSCode%2C+Zed%2C+...&description=1&font=JetBrains+Mono&name=1&owner=1&pattern=Floating+Cogs&theme=Dark)
 
 # `@nndvn/cfgs`
 
@@ -36,7 +57,6 @@
 </details>
 
 ---
-
 ## :rocket: Installation
 
 > [!IMPORTANT] 
@@ -46,6 +66,7 @@
 bun add --dev --exact git+https://github.com/nndvn/cfgs.git
 ```
 
+---
 ## :hammer_and_wrench: Configuration
 
 1. Add the `extends` array to your `biome.json` file:
@@ -74,6 +95,7 @@ bun add --dev --exact git+https://github.com/nndvn/cfgs.git
 }
 ```
 
+----
 ## :gear: Usage
 
 ### Command-line interface (CLI)
@@ -159,10 +181,12 @@ Add the following settings to your `.zed/settings.json` file:
 
 https://biomejs.dev/recipes/continuous-integration/
 
+---
 ## :reminder_ribbon: License
 
-This project is released under the MIT License. Please read the [LICENSE](LICENSE) file for more details.
+This project is released under the [MIT](https://choosealicense.com/licenses/mit/) License. For more details, refer to the [LICENSE](LICENSE) file.
 
+---
 ## :raised_hands: Acknowledgements
 
 - [Biome](https://biomejs.dev/guides/getting-started)
@@ -170,3 +194,5 @@ This project is released under the MIT License. Please read the [LICENSE](LICENS
 - [EditorConfig](https://editorconfig.org)
 - [VSCode](https://code.visualstudio.com/docs)
 - [Zed](https://zed.dev/docs)
+
+---
