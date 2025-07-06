@@ -3,7 +3,7 @@
 	"bugs": {
 		"url": "https://github.com/nndvn/cfgs/issues"
 	},
-	"description": "My personal editor configurations (EditorConfig, VSCode, Zed, Biome).",
+	"description": "[WIP] My editor configurations: Biome, Bun, EditorConfig, VSCode, Zed, ... 🚧",
 	"devDependencies": {
 		"@types/bun": "latest"
 	},
