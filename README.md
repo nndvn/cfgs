@@ -1,5 +1,5 @@
 <p align="center">
-	<img src="https://socialify.git.ci/nndvn/cfgs/image?custom_description=My+editor+configurations%3A+Biome%2C+Bun%2C+EditorConfig%2C+VSCode%2C+Zed%2C+...&description=1&font=JetBrains+Mono&name=1&owner=1&pattern=Floating+Cogs&theme=Dark" alt="@nndvn/cfgs" width="800">
+	<img src="https://socialify.git.ci/nndvn/cfgs/image?custom_description=My+editor+configurations%3A+Biome%2C+Bun%2C+EditorConfig%2C+VSCode%2C+Zed%2C+...&description=1&font=JetBrains+Mono&name=1&owner=1&pattern=Floating+Cogs&theme=Dark" alt="@nndvn/cfgs" width="1012">
 </p>
 
 <p align="center">
@@ -9,18 +9,24 @@
     <img src="https://img.shields.io/npm/v/@nndvn/cfgs?style=flat-square&logo=opensourceinitiative&logoColor=white&color=10069F&label=npm" alt="NPM package version">
 </p>
 
-<p align="center">
+<!-- <p align="center">
     <img src="https://img.shields.io/badge/biome-24272f?style=for-the-badge&logo=biome" alt="Biome">
     <img src="https://img.shields.io/badge/bun-141519?style=for-the-badge&logo=bun" alt="Bun">
     <img src="https://img.shields.io/badge/editorconfig-e0efef?style=for-the-badge&logo=editorconfig&logoColor=black" alt="EditorConfig">
     <img src="https://img.shields.io/badge/zed-0751cf?style=for-the-badge&logo=zedindustries" alt="Zed">
-</p>
+</p> -->
 
 <br>
 
 # `@nndvn/cfgs`
 
 > My editor configurations: Biome, Bun, EditorConfig, VSCode, Zed, ...
+
+[![Biome](https://img.shields.io/badge/biome-24272f?style=for-the-badge&logo=biome)](https://github.com/biomejs/biome)
+[![Bun](https://img.shields.io/badge/bun-141519?style=for-the-badge&logo=bun)](https://github.com/oven-sh/bun)
+[![EditorConfig](https://img.shields.io/badge/editorconfig-e0efef?style=for-the-badge&logo=editorconfig&logoColor=black)](https://editorconfig.org)
+[![Visual Code Studio](https://img.shields.io/badge/vscode-0d1117?style=for-the-badge&logo=vscodium)](https://github.com/microsoft/vscode)
+[![Zed](https://img.shields.io/badge/zed-0751cf?style=for-the-badge&logo=zedindustries)](https://github.com/zed-industries/zed)
 
 <br>
 
