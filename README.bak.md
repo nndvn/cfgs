@@ -3,9 +3,9 @@
 # `@nndvn/cfgs`
 
 [![MIT License](https://img.shields.io/github/license/nndvn/cfgs?style=flat-square&logo=opensourceinitiative&logoColor=white&color=10069F&label=license)](LICENSE)
-[![](https://img.shields.io/github/last-commit/eli64s/readme-ai?style=flat-square&logo=git&logoColor=white&color=10069f&label=last+commit)](#)
-[![GitHub Version](https://img.shields.io/github/package-json/v/nndvn/cfgs?style=flat-square&logo=github&logoColor=white&color=10069F&label=github)](#)
-[![NPM Version](https://img.shields.io/npm/v/@nndvn/cfgs?style=flat-square&logo=npm&logoColor=white&color=10069F&label=npm+version)](#)
+[![Last commit](https://img.shields.io/github/last-commit/eli64s/readme-ai?style=flat-square&logo=git&logoColor=white&color=10069f&label=last+commit)](#)
+[![Github package.json version](https://img.shields.io/github/package-json/v/nndvn/cfgs?style=flat-square&logo=github&logoColor=white&color=10069F&label=github)](#)
+[![NPM package version](https://img.shields.io/npm/v/@nndvn/cfgs?style=flat-square&logo=npm&logoColor=white&color=10069F&label=npm)](#)
 
 > My editor configurations: Biome, Bun, EditorConfig, VSCode, Zed, ...
 
@@ -17,7 +17,6 @@
 
 <details>
 <summary>:book: Table of Contents</summary>
-
 - :rocket: [Installation](#rocket-installation)
 - :hammer_and_wrench: [Configuration](#hammer_and_wrench-configuration)
 - :gear: [Usage](#gear-usage)
@@ -28,7 +27,6 @@
     - [Continuous integration (CI)](#continuous-integration-ci) :construction:
 - :reminder_ribbon: [License](#reminder_ribbon-license)
 - :raised_hands: [Acknowledgements](#raised_hands-acknowledgements)
-
 </details>
 
 ---
