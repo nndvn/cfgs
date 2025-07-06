@@ -18,11 +18,11 @@ My editor configurations: `[EditorConfig, VSCode, Zed, Biome, ...]`
 * :rocket: [Installation](#rocket-installation)
 * :hammer_and_wrench: [Configuration](#hammer_and_wrench-configuration)
 * :gear: [Usage](#gear-usage)
-    * Command-line interface (CLI)
-    * Editor integrations (IDEs)
-        * [EditorConfig](#editorconfig)
-        * [VSCode](#vscode)
-    * Continuous Integration
+    * [Command-line interface (CLI)](#command-line-interface-cli)
+    * [Editor integrations (IDEs)](#editor-integrations-ides)
+        * [Visual Studio Code](#visual-studio-code)
+        * [Zed](#zed)
+    * [Continuous integration (CI)](#continuous-integration-ci)
 * :reminder_ribbon: [License](#reminder_ribbon-license)
 * :raised_hands: [Acknowledgements](#raised_hands-acknowledgements)
 
@@ -30,8 +30,8 @@ My editor configurations: `[EditorConfig, VSCode, Zed, Biome, ...]`
 
 ## :rocket: Installation
 
-> [!NOTE] 
-> Install directly from GitHub repo.
+> [!IMPORTANT] 
+> Install configuration package directly from GitHub repository.
 
 ```bash
 bun add --dev --exact git+https://github.com/nndvn/cfgs.git
@@ -39,9 +39,10 @@ bun add --dev --exact git+https://github.com/nndvn/cfgs.git
 
 ## :hammer_and_wrench: Configuration
 
-Add the `extends` array to your project's `biome.json` file:
+Add the `extends` array to your `biome.json` file:
 
 ```jsonc
+// <project-root>/biome.json
 {
     "$schema": "https://biomejs.dev/schemas/2.0.6/schema.json",
     "extends": ["@nndvn/cfgs"],
@@ -49,9 +50,10 @@ Add the `extends` array to your project's `biome.json` file:
 }
 ```
 
-Add scripts to your `<project-root>/package.json` if you haven't already:
+Add `scripts` to your `package.json` if you haven't already:
 
 ```jsonc
+// <project-root>/package.json
 {
     //...
     "scripts": {
@@ -68,7 +70,7 @@ Add scripts to your `<project-root>/package.json` if you haven't already:
 
 ## :gear: Usage
 
-### Command-line interface
+### Command-line interface (CLI)
 
 ```bash
 # Format all files
@@ -90,13 +92,13 @@ bunx biome check --write
 bunx biome check --write <files>
 ```
 
-### Editor integrations/IDEs
+### Editor integrations (IDEs)
 
 #### Visual Studio Code
 
 Add the following extensions to your `.vscode/extensions.json` file:
 
-```json
+```jsonc
 // <project-root>/.vscode/extensions.json
 {
     "recommendations": [
@@ -107,7 +109,7 @@ Add the following extensions to your `.vscode/extensions.json` file:
 
 Add the following settings to your `.vscode/settings.json` file:
 
-```json
+```jsonc
 // <project-root>/.vscode/settings.json
 {
     "[javascript][typescript][json]": {
@@ -126,7 +128,7 @@ Add the following settings to your `.vscode/settings.json` file:
 
 Add the following settings to your `.zed/settings.json` file:
 
-```json
+```jsonc
 // <project-root>/.zed/settings.json
 {
     "auto_install_extensions": {
@@ -147,7 +149,7 @@ Add the following settings to your `.zed/settings.json` file:
 }
 ```
 
-### Continuous Integration 
+### Continuous integration (CI)
 
 :construction: https://biomejs.dev/recipes/continuous-integration/
 
@@ -161,9 +163,7 @@ This project is licensed under the [MIT](LICENSE) license.
 
 ## :raised_hands: Acknowledgements
 
- - [EditorConfig](https://editorconfig.org/)
- - [VSCode](https://code.visualstudio.com/docs/configure/settings#_workspace-settings)
- - [Zed](https://zed.dev/docs/configuring-zed#settings-files)
- - [Biome](https://biomejs.dev/guides/getting-started/)
- - [Biome extension for VSCode](https://github.com/biomejs/biome-vscode) https://biomejs.dev/reference/vscode/
- - [Biome extension for Zed](https://github.com/biomejs/biome-zed) https://biomejs.dev/reference/zed/
+ - [EditorConfig](https://editorconfig.org)
+ - [VSCode](https://code.visualstudio.com/docs)
+ - [Zed](https://zed.dev/docs)
+ - [Biome](https://biomejs.dev/guides/getting-started)
