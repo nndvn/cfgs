@@ -1,4 +1,4 @@
-![cfgs](https://socialify.git.ci/nndvn/cfgs/image?custom_description=My+editor+configurations%3A+EditorConfig%2C+VSCode%2C+Zed%2C+Biome%2C+...&description=1&font=JetBrains+Mono&name=1&owner=1&pattern=Floating+Cogs&theme=Dark)
+![@nndvn/cfgs](https://socialify.git.ci/nndvn/cfgs/image?custom_description=My+editor+configurations%3A+Biome%2C+Bun%2C+EditorConfig%2C+VSCode%2C+Zed%2C+...&description=1&font=JetBrains+Mono&name=1&owner=1&pattern=Floating+Cogs&theme=Dark)
 
 # @nndvn/cfgs
 
@@ -158,6 +158,7 @@ This project is released under the MIT License. Please read the [LICENSE](LICENS
 ## :raised_hands: Acknowledgements
 
 - [Biome](https://biomejs.dev/guides/getting-started)
+- [Bun](https://bun.sh/docs)
 - [EditorConfig](https://editorconfig.org)
 - [VSCode](https://code.visualstudio.com/docs)
 - [Zed](https://zed.dev/docs)
