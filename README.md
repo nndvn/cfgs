@@ -1,5 +1,6 @@
 <p align="center">
-	<img src="https://socialify.git.ci/nndvn/cfgs/image?custom_description=My+editor+configurations%3A+Biome%2C+Bun%2C+EditorConfig%2C+VSCode%2C+Zed%2C+...&description=1&font=JetBrains+Mono&name=1&owner=1&pattern=Floating+Cogs&theme=Dark" alt="@nndvn/cfgs" width="1012">
+	<!-- <img src="https://socialify.git.ci/nndvn/cfgs/image?custom_description=My+editor+configurations%3A+Biome%2C+Bun%2C+EditorConfig%2C+VSCode%2C+Zed%2C+...&description=1&font=JetBrains+Mono&name=1&owner=1&pattern=Floating+Cogs&theme=Dark" alt="@nndvn/cfgs" width="1012"> -->
+    <img src="https://repository-images.githubusercontent.com/1014406307/45d0c5b3-de36-4546-ac00-02c635bd197b" alt="@nndvn/cfgs" width="1012">
 </p>
 
 <p align="center">
