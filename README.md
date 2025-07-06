@@ -57,12 +57,9 @@ Add `scripts` to your `package.json` if you haven't already:
 {
     //...
     "scripts": {
-        "format": "biome format .",
-        "format:fix": "biome format --write .",
-        "lint": "biome lint .",
-        "lint:fix": "biome lint  --write .",
-        "check": "biome check .",
-        "check:fix": "biome check --write ."
+        "fix": "biome check --fix .",
+        "lint": "biome lint  --fix .",
+        "format": "biome format --fix ."
     },
     // ...
 }
@@ -77,18 +74,21 @@ Add `scripts` to your `package.json` if you haven't already:
 bunx biome format --write
 
 # Format specific files
+bun run format
 bunx biome format --write <files>
 
 # Lint and apply safe fixes to all files
 bunx biome lint --write
 
 # Lint files and apply safe fixes to specific files
+bun run lint
 bunx biome lint --write <files>
 
 # Format, lint, and organize imports of all files
 bunx biome check --write
 
 # Format, lint, and organize imports of specific files
+bun run fix
 bunx biome check --write <files>
 ```
 
@@ -155,7 +155,7 @@ Add the following settings to your `.zed/settings.json` file:
 
 ## :reminder_ribbon: License
 
-This project is licensed under the [MIT](LICENSE) license.
+This project is released under the MIT License. Please read the [LICENSE](LICENSE) file for more details.
 
 ## :raised_hands: Acknowledgements
 
