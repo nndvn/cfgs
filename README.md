@@ -2,29 +2,30 @@
 
 # @nndvn/cfgs
 
-![github](https://img.shields.io/github/package-json/v/nndvn/cfgs?style=flat-square&logo=github&logoColor=white&color=10069F&label=github)
-![license](https://img.shields.io/github/license/nndvn/cfgs?style=flat-square&logo=opensourceinitiative&logoColor=white&color=10069F&label=license)
-![biome](https://img.shields.io/npm/v/%40biomejs%2Fbiome?style=flat-square&logo=biome&logoColor=white&color=10069F&label=biome)
-![bun](https://img.shields.io/github/v/release/oven-sh/bun?style=flat-square&logo=bun&logoColor=white&color=10069F&label=bun)
-![zed](https://img.shields.io/github/v/release/zed-industries/zed?style=flat-square&logo=zedindustries&logoColor=white&color=10069F&label=zed)
-![vscode](https://img.shields.io/github/v/release/microsoft/vscode?style=flat-square&logo=vscodium&logoColor=white&color=10069F&label=vscode)
-![npm](https://img.shields.io/npm/v/@nndvn/cfgs?style=flat-square&logo=npm&logoColor=white&color=10069F&label=npm)
+![NPM Version](https://img.shields.io/npm/v/@nndvn/cfgs?style=flat-square&logo=npm&logoColor=white&color=10069F&label=npm)
+![GitHub Version](https://img.shields.io/github/package-json/v/nndvn/cfgs?style=flat-square&logo=github&logoColor=white&color=10069F&label=github)
+![MIT License](https://img.shields.io/github/license/nndvn/cfgs?style=flat-square&logo=opensourceinitiative&logoColor=white&color=10069F&label=license)
+![Biome](https://img.shields.io/npm/v/%40biomejs%2Fbiome?style=flat-square&logo=biome&logoColor=white&color=10069F&label=biome)
+[![EditorConfig](https://img.shields.io/badge/www-10069F?style=flat-square&logo=editorconfig&logoColor=white&label=.editorconfig&color=10069F)](https://editorconfig.org)
+![Bun](https://img.shields.io/github/v/release/oven-sh/bun?style=flat-square&logo=bun&logoColor=white&color=10069F&label=bun)
+![Visual Code Studio](https://img.shields.io/github/v/release/microsoft/vscode?style=flat-square&logo=vscodium&logoColor=white&color=10069F&label=vscode)
+![Zed](https://img.shields.io/github/v/release/zed-industries/zed?style=flat-square&logo=zedindustries&logoColor=white&color=10069F&label=zed)
 
-My editor configurations: EditorConfig, VSCode, Zed, Biome, ...
+My editor configurations: Biome, Bun, EditorConfig, VSCode, Zed, ...
 
 <details open>
 <summary>:book: Table of Contents</summary>
 
-* :rocket: [Installation](#rocket-installation)
-* :hammer_and_wrench: [Configuration](#hammer_and_wrench-configuration)
-* :gear: [Usage](#gear-usage)
-    * [Command-line interface (CLI)](#command-line-interface-cli)
-    * [Editor integrations (IDEs)](#editor-integrations-ides)
-        * [Visual Studio Code](#visual-studio-code)
-        * [Zed](#zed)
-    * [Continuous integration (CI)](#continuous-integration-ci)
-* :reminder_ribbon: [License](#reminder_ribbon-license)
-* :raised_hands: [Acknowledgements](#raised_hands-acknowledgements)
+- :rocket: [Installation](#rocket-installation)
+- :hammer_and_wrench: [Configuration](#hammer_and_wrench-configuration)
+- :gear: [Usage](#gear-usage)
+    - [Command-line interface (CLI)](#command-line-interface-cli)
+    - [Editor integrations (IDEs)](#editor-integrations-ides)
+        - [Visual Studio Code](#visual-studio-code)
+        - [Zed](#zed)
+    - [Continuous integration (CI)](#continuous-integration-ci) :construction:
+- :reminder_ribbon: [License](#reminder_ribbon-license)
+- :raised_hands: [Acknowledgements](#raised_hands-acknowledgements)
 
 </details>
 
@@ -57,9 +58,9 @@ Add `scripts` to your `package.json` if you haven't already:
 {
     //...
     "scripts": {
-        "fix": "biome check --fix .",
-        "lint": "biome lint  --fix .",
-        "format": "biome format --fix ."
+        "check": "biome check --fix",
+        "format": "biome format --fix",
+        "lint": "biome lint  --fix"
     },
     // ...
 }
@@ -71,25 +72,22 @@ Add `scripts` to your `package.json` if you haven't already:
 
 ```bash
 # Format all files
-bunx biome format --write
+bun run format
 
 # Format specific files
-bun run format
-bunx biome format --write <files>
+bun run format <files>
 
 # Lint and apply safe fixes to all files
-bunx biome lint --write
+bun run lint
 
 # Lint files and apply safe fixes to specific files
-bun run lint
-bunx biome lint --write <files>
+bun run lint <files>
 
 # Format, lint, and organize imports of all files
-bunx biome check --write
+bun run check
 
 # Format, lint, and organize imports of specific files
-bun run fix
-bunx biome check --write <files>
+bun run check <files>
 ```
 
 ### Editor integrations (IDEs)
@@ -149,9 +147,9 @@ Add the following settings to your `.zed/settings.json` file:
 }
 ```
 
-### Continuous integration (CI)
+### Continuous integration (CI) :construction:
 
-:construction: https://biomejs.dev/recipes/continuous-integration/
+https://biomejs.dev/recipes/continuous-integration/
 
 ## :reminder_ribbon: License
 
@@ -159,7 +157,7 @@ This project is released under the MIT License. Please read the [LICENSE](LICENS
 
 ## :raised_hands: Acknowledgements
 
- - [EditorConfig](https://editorconfig.org)
- - [VSCode](https://code.visualstudio.com/docs)
- - [Zed](https://zed.dev/docs)
- - [Biome](https://biomejs.dev/guides/getting-started)
+- [Biome](https://biomejs.dev/guides/getting-started)
+- [EditorConfig](https://editorconfig.org)
+- [VSCode](https://code.visualstudio.com/docs)
+- [Zed](https://zed.dev/docs)
