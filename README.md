@@ -20,7 +20,7 @@
 
 # `@nndvn/cfgs`
 
-> My editor configurations: Biome, Bun, EditorConfig, VSCode, Zed, ...
+> [WIP] My editor configurations: Biome, Bun, EditorConfig, VSCode, Zed, ... :construction:
 
 [![Biome](https://img.shields.io/badge/biome-24272f?style=for-the-badge&logo=biome)](https://github.com/biomejs/biome)
 [![Bun](https://img.shields.io/badge/bun-141519?style=for-the-badge&logo=bun)](https://github.com/oven-sh/bun)
