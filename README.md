@@ -18,8 +18,10 @@
 
 # @nndvn/cfgs
 
+> My editor configurations: Biome, Bun, EditorConfig, VSCode, Zed, ...
+
 <details>
-<summary>:book: Table of Contents</summary>
+<summary>Table of Contents</summary>
 
 - :rocket: [Installation](#rocket-installation)
 - :hammer_and_wrench: [Configuration](#hammer_and_wrench-configuration)
