@@ -15,19 +15,20 @@ My editor configurations: `[EditorConfig, VSCode, Zed, Biome, ...]`
 <details open>
 <summary>:book: Table of Contents</summary>
 
-* ⬇️ [Installation](#-installation)
-* 🛠️ [Configuration](#-configuration)**
-* ⚙️ [Usage](#-usage)
-    * 1. [Biome](#biome)
-    * 2. [Zed](#zed)
-    * 3. [EditorConfig](#editorconfig)
-    * 4. [VSCode](#vscode)
-* 🎗[License](#-license)
-* 🙌 [Acknowledgements](#-acknowledgements)
+* :rocket: [Installation](#rocket-installation)
+* :hammer_and_wrench: [Configuration](#hammer_and_wrench-configuration)
+* :gear: [Usage](#gear-usage)
+    * Command-line interface (CLI)
+    * Editor integrations (IDEs)
+        * [EditorConfig](#editorconfig)
+        * [VSCode](#vscode)
+    * Continuous Integration
+* :reminder_ribbon: [License](#reminder_ribbon-license)
+* :raised_hands: [Acknowledgements](#raised_hands-acknowledgements)
 
 </details>
 
-## ⬇️ Installation
+## :rocket: Installation
 
 > [!NOTE] 
 > Install directly from GitHub repo.
@@ -36,7 +37,7 @@ My editor configurations: `[EditorConfig, VSCode, Zed, Biome, ...]`
 bun add --dev --exact git+https://github.com/nndvn/cfgs.git
 ```
 
-## 🛠️ Configuration
+## :hammer_and_wrench: Configuration
 
 Add the `extends` array to your project's `biome.json` file:
 
@@ -65,7 +66,7 @@ Add scripts to your `<project-root>/package.json` if you haven't already:
 }
 ```
 
-## ⚙️ Usage
+## :gear: Usage
 
 ### Command-line interface
 
@@ -154,11 +155,11 @@ Add the following settings to your `.zed/settings.json` file:
 biome ci .
 ```
 
-## 🎗 License
+## :reminder_ribbon: License
 
 This project is licensed under the [MIT](LICENSE) license.
 
-## 🙌 Acknowledgements
+## :raised_hands: Acknowledgements
 
  - [EditorConfig](https://editorconfig.org/)
  - [VSCode](https://code.visualstudio.com/docs/configure/settings#_workspace-settings)
