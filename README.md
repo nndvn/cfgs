@@ -1,19 +1,25 @@
 ![@nndvn/cfgs](https://socialify.git.ci/nndvn/cfgs/image?custom_description=My+editor+configurations%3A+Biome%2C+Bun%2C+EditorConfig%2C+VSCode%2C+Zed%2C+...&description=1&font=JetBrains+Mono&name=1&owner=1&pattern=Floating+Cogs&theme=Dark)
 
-# @nndvn/cfgs
+<p align="center">
+	<img src="https://socialify.git.ci/nndvn/cfgs/image?custom_description=My+editor+configurations%3A+Biome%2C+Bun%2C+EditorConfig%2C+VSCode%2C+Zed%2C+...&description=1&font=JetBrains+Mono&name=1&owner=1&pattern=Floating+Cogs&theme=Dark" alt="readme-ai-banner" width="800">
+</p>
 
-[![NPM Version](https://img.shields.io/npm/v/@nndvn/cfgs?style=flat-square&logo=npm&logoColor=white&color=10069F&label=npm)](#)
-[![GitHub Version](https://img.shields.io/github/package-json/v/nndvn/cfgs?style=flat-square&logo=github&logoColor=white&color=10069F&label=github)](#)
+# `@nndvn/cfgs`
+
 [![MIT License](https://img.shields.io/github/license/nndvn/cfgs?style=flat-square&logo=opensourceinitiative&logoColor=white&color=10069F&label=license)](LICENSE)
-[![Biome](https://img.shields.io/npm/v/%40biomejs%2Fbiome?style=flat-square&logo=biome&logoColor=white&color=10069F&label=biome)](https://github.com/biomejs/biome)
-[![EditorConfig](https://img.shields.io/badge/www-10069F?style=flat-square&logo=editorconfig&logoColor=white&label=.editorconfig&color=10069F)](https://editorconfig.org)
-[![Bun](https://img.shields.io/github/v/release/oven-sh/bun?style=flat-square&logo=bun&logoColor=white&color=10069F&label=bun)](https://github.com/oven-sh/bun)
-[![Visual Code Studio](https://img.shields.io/github/v/release/microsoft/vscode?style=flat-square&logo=vscodium&logoColor=white&color=10069F&label=vscode)](https://github.com/microsoft/vscode)
-[![Zed](https://img.shields.io/github/v/release/zed-industries/zed?style=flat-square&logo=zedindustries&logoColor=white&color=10069F&label=zed)](https://github.com/zed-industries/zed)
+[![](https://img.shields.io/github/last-commit/eli64s/readme-ai?style=flat-square&logo=git&logoColor=white&color=10069f&label=last+commit)](#)
+[![GitHub Version](https://img.shields.io/github/package-json/v/nndvn/cfgs?style=flat-square&logo=github&logoColor=white&color=10069F&label=github)](#)
+[![NPM Version](https://img.shields.io/npm/v/@nndvn/cfgs?style=flat-square&logo=npm&logoColor=white&color=10069F&label=npm+version)](#)
 
-My editor configurations: Biome, Bun, EditorConfig, VSCode, Zed, ...
+> My editor configurations: Biome, Bun, EditorConfig, VSCode, Zed, ...
 
-<details open>
+[![Biome](https://img.shields.io/badge/biome-24272f?style=for-the-badge&logo=biome)](https://github.com/biomejs/biome)
+[![Bun](https://img.shields.io/badge/bun-141519?style=for-the-badge&logo=bun)](https://github.com/oven-sh/bun)
+[![EditorConfig](https://img.shields.io/badge/editorconfig-e0efef?style=for-the-badge&logo=editorconfig&logoColor=black)](https://editorconfig.org)
+[![Visual Code Studio](https://img.shields.io/badge/vscode-0d1117?style=for-the-badge&logo=vscodium)](https://github.com/microsoft/vscode)
+[![Zed](https://img.shields.io/badge/zed-0751cf?style=for-the-badge&logo=zedindustries)](https://github.com/zed-industries/zed)
+
+<details>
 <summary>:book: Table of Contents</summary>
 
 - :rocket: [Installation](#rocket-installation)
@@ -29,6 +35,8 @@ My editor configurations: Biome, Bun, EditorConfig, VSCode, Zed, ...
 
 </details>
 
+---
+
 ## :rocket: Installation
 
 > [!IMPORTANT] 
@@ -40,7 +48,7 @@ bun add --dev --exact git+https://github.com/nndvn/cfgs.git
 
 ## :hammer_and_wrench: Configuration
 
-Add the `extends` array to your `biome.json` file:
+1. Add the `extends` array to your `biome.json` file:
 
 ```jsonc
 // <project-root>/biome.json
@@ -51,7 +59,7 @@ Add the `extends` array to your `biome.json` file:
 }
 ```
 
-Add `scripts` to your `package.json` if you haven't already:
+2. Add `scripts` to your `package.json` if you haven't already:
 
 ```jsonc
 // <project-root>/package.json
