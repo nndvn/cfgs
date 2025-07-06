@@ -16,9 +16,13 @@
     <img src="https://img.shields.io/badge/zed-0751cf?style=for-the-badge&logo=zedindustries" alt="Zed">
 </p>
 
-# @nndvn/cfgs
+<br>
+
+# `@nndvn/cfgs`
 
 > My editor configurations: Biome, Bun, EditorConfig, VSCode, Zed, ...
+
+<br>
 
 <details>
     <summary>Table of Contents</summary>
@@ -37,6 +41,8 @@
 </details>
 
 ---
+<br>
+
 ## :hammer_and_wrench: Installation
 
 > [!IMPORTANT] 
@@ -47,6 +53,8 @@ bun add --dev --exact git+https://github.com/nndvn/cfgs.git
 ```
 
 ---
+<br>
+
 ## :gear: Configuration
 
 1. Add the `extends` array to your `biome.json` file:
@@ -76,6 +84,8 @@ bun add --dev --exact git+https://github.com/nndvn/cfgs.git
 ```
 
 ----
+<br>
+
 ## :computer: Usage
 
 ### Command-line interface (CLI)
@@ -162,11 +172,15 @@ Add the following settings to your `.zed/settings.json` file:
 https://biomejs.dev/recipes/continuous-integration/
 
 ---
+<br>
+
 ## :reminder_ribbon: License
 
 This project is released under the [MIT](https://choosealicense.com/licenses/mit/) License. For more details, refer to the [LICENSE](LICENSE) file.
 
 ---
+<br>
+
 ## :raised_hands: Acknowledgements
 
 - [Biome](https://biomejs.dev/guides/getting-started)
@@ -176,3 +190,4 @@ This project is released under the [MIT](https://choosealicense.com/licenses/mit
 - [Zed](https://zed.dev/docs)
 
 ---
+<br>
