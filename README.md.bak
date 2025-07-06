@@ -1,28 +1,3 @@
-<p align="center">
-	<img src="https://socialify.git.ci/nndvn/cfgs/image?custom_description=My+editor+configurations%3A+Biome%2C+Bun%2C+EditorConfig%2C+VSCode%2C+Zed%2C+...&description=1&font=JetBrains+Mono&name=1&owner=1&pattern=Floating+Cogs&theme=Dark" alt="readme-ai-banner" width="800">
-</p>
-
-<p align="center">
-	<em><code>@nndvn/cfgs</code></em>
-</p>
-
-<p align="center">
-    <img src="https://img.shields.io/github/license/nndvn/cfgs?style=flat-square&logo=opensourceinitiative&logoColor=white&color=10069F&label=license" alt="License">
-    <img src="https://img.shields.io/github/last-commit/nndvn/cfgs?style=flat-square&logo=opensourceinitiative&logoColor=white&color=10069F&label=last+commit" alt="Last commit">
-    <img src="https://img.shields.io/github/package-json/v/nndvn/cfgs?style=flat-square&logo=opensourceinitiative&logoColor=white&color=10069F&label=github" alt="Github package.json version">
-    <img src="https://img.shields.io/npm/v/@nndvn/cfgs?style=flat-square&logo=opensourceinitiative&logoColor=white&color=10069F&label=npm" alt="NPM package version">
-</p>
-
-<p align="center">My editor configurations: Biome, Bun, EditorConfig, VSCode, Zed, ...</p>
-
-<p align="center">
-    <img src="https://img.shields.io/badge/biome-24272f?style=for-the-badge&logo=biome" alt="Biome">
-    <img src="https://img.shields.io/badge/bun-141519?style=for-the-badge&logo=bun" alt="Bun">
-    <img src="https://img.shields.io/badge/editorconfig-e0efef?style=for-the-badge&logo=editorconfig&logoColor=black" alt="EditorConfig">
-    <img src="https://img.shields.io/badge/zed-0751cf?style=for-the-badge&logo=zedindustries" alt="Zed">
-</p>
-
----
 ![@nndvn/cfgs](https://socialify.git.ci/nndvn/cfgs/image?custom_description=My+editor+configurations%3A+Biome%2C+Bun%2C+EditorConfig%2C+VSCode%2C+Zed%2C+...&description=1&font=JetBrains+Mono&name=1&owner=1&pattern=Floating+Cogs&theme=Dark)
 
 # `@nndvn/cfgs`
