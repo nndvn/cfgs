@@ -1,4 +1,4 @@
-![@nndvn/cfgs](https://socialify.git.ci/nndvn/cfgs/image?description=1&font=Inter&name=1&owner=1&pattern=Floating+Cogs&theme=Dark)
+![cfgs](https://socialify.git.ci/nndvn/cfgs/image?custom_description=My+editor+configurations%3A+EditorConfig%2C+VSCode%2C+Zed%2C+Biome%2C+...&description=1&font=JetBrains+Mono&name=1&owner=1&pattern=Floating+Cogs&theme=Dark)
 
 # @nndvn/cfgs
 
@@ -10,14 +10,13 @@
 ![vscode](https://img.shields.io/github/v/release/microsoft/vscode?style=flat-square&logo=vscodium&logoColor=white&color=10069F&label=vscode)
 ![npm](https://img.shields.io/npm/v/@nndvn/cfgs?style=flat-square&logo=npm&logoColor=white&color=10069F&label=npm)
 
-My editor configurations: biome, editorconfig, vscode, zed,...
+My editor configurations: `[EditorConfig, VSCode, Zed, Biome, ...]`
 
 <details open>
 <summary>:book: Table of Contents</summary>
 
-* 🛠️ [Installation](#-installation)
-    * 1. [Install package](#install-package)
-    * 2. [Install package](#install-package)
+* ⬇️ [Installation](#-installation)
+* 🛠️ [Configuration](#-configuration)**
 * ⚙️ [Usage](#-usage)
     * 1. [Biome](#biome)
     * 2. [Zed](#zed)
@@ -28,31 +27,18 @@ My editor configurations: biome, editorconfig, vscode, zed,...
 
 </details>
 
-## 🛠️ Installation
+## ⬇️ Installation
 
-### 1. Install package
-
-> [!WARNING]
-> This repository is not distributed as a package; please install it directly from the GitHub repository.
-> This repository isn't available as a traditional package. To use it, you'll need to install it directly from GitHub repository.
-
-:warning: **Note:** install package from github
+> [!NOTE] 
+> Install directly from GitHub repo.
 
 ```bash
 bun add --dev --exact git+https://github.com/nndvn/cfgs.git
 ```
 
-### 2. Install package
+## 🛠️ Configuration
 
-`WIP`
-
-## ⚙️ Usage
-
-### Biome
-
-Add the following to your `<project-root>/biome.json` file:
-
-<!-- Add the `extends` array to your project's `biome.json` file: -->
+Add the `extends` array to your project's `biome.json` file:
 
 ```jsonc
 {
@@ -78,6 +64,8 @@ Add scripts to your `<project-root>/package.json` if you haven't already:
     // ...
 }
 ```
+
+## ⚙️ Usage
 
 ### Command-line interface
 
