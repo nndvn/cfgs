@@ -21,11 +21,11 @@
 > My editor configurations: Biome, Bun, EditorConfig, VSCode, Zed, ...
 
 <details>
-<summary>Table of Contents</summary>
+    <summary>Table of Contents</summary>
 
-- :rocket: [Installation](#rocket-installation)
-- :hammer_and_wrench: [Configuration](#hammer_and_wrench-configuration)
-- :gear: [Usage](#gear-usage)
+- :hammer_and_wrench: [Installation](#hammer_and_wrench-installation)
+- :gear: [Configuration](#gear-configuration)
+- :computer: [Usage](#computer-usage)
     - [Command-line interface (CLI)](#command-line-interface-cli)
     - [Editor integrations (IDEs)](#editor-integrations-ides)
         - [Visual Studio Code](#visual-studio-code)
@@ -37,7 +37,7 @@
 </details>
 
 ---
-## :rocket: Installation
+## :hammer_and_wrench: Installation
 
 > [!IMPORTANT] 
 > Install configuration package directly from GitHub repository.
@@ -47,7 +47,7 @@ bun add --dev --exact git+https://github.com/nndvn/cfgs.git
 ```
 
 ---
-## :hammer_and_wrench: Configuration
+## :gear: Configuration
 
 1. Add the `extends` array to your `biome.json` file:
 
@@ -76,7 +76,7 @@ bun add --dev --exact git+https://github.com/nndvn/cfgs.git
 ```
 
 ----
-## :gear: Usage
+## :computer: Usage
 
 ### Command-line interface (CLI)
 
