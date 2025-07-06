@@ -1,13 +1,9 @@
 ![@nndvn/cfgs](https://socialify.git.ci/nndvn/cfgs/image?custom_description=My+editor+configurations%3A+Biome%2C+Bun%2C+EditorConfig%2C+VSCode%2C+Zed%2C+...&description=1&font=JetBrains+Mono&name=1&owner=1&pattern=Floating+Cogs&theme=Dark)
 
-# `@nndvn/cfgs`
-
 [![MIT License](https://img.shields.io/github/license/nndvn/cfgs?style=flat-square&logo=opensourceinitiative&logoColor=white&color=10069F&label=license)](LICENSE)
 [![Last commit](https://img.shields.io/github/last-commit/eli64s/readme-ai?style=flat-square&logo=git&logoColor=white&color=10069f&label=last+commit)](#)
 [![Github package.json version](https://img.shields.io/github/package-json/v/nndvn/cfgs?style=flat-square&logo=github&logoColor=white&color=10069F&label=github)](#)
 [![NPM package version](https://img.shields.io/npm/v/@nndvn/cfgs?style=flat-square&logo=npm&logoColor=white&color=10069F&label=npm)](#)
-
-> My editor configurations: Biome, Bun, EditorConfig, VSCode, Zed, ...
 
 [![Biome](https://img.shields.io/badge/biome-24272f?style=for-the-badge&logo=biome)](https://github.com/biomejs/biome)
 [![Bun](https://img.shields.io/badge/bun-141519?style=for-the-badge&logo=bun)](https://github.com/oven-sh/bun)
@@ -15,11 +11,18 @@
 [![Visual Code Studio](https://img.shields.io/badge/vscode-0d1117?style=for-the-badge&logo=vscodium)](https://github.com/microsoft/vscode)
 [![Zed](https://img.shields.io/badge/zed-0751cf?style=for-the-badge&logo=zedindustries)](https://github.com/zed-industries/zed)
 
+# `@nndvn/cfgs`
+
+> My editor configurations: Biome, Bun, EditorConfig, VSCode, Zed, ...
+
+<br>
+
 <details>
-<summary>:book: Table of Contents</summary>
-- :rocket: [Installation](#rocket-installation)
-- :hammer_and_wrench: [Configuration](#hammer_and_wrench-configuration)
-- :gear: [Usage](#gear-usage)
+<summary>Table of Contents</summary>
+    
+- :hammer_and_wrench: [Installation](#hammer_and_wrench-installation)
+- :gear: [Configuration](#gear-configuration)
+- :computer: [Usage](#computer-usage)
     - [Command-line interface (CLI)](#command-line-interface-cli)
     - [Editor integrations (IDEs)](#editor-integrations-ides)
         - [Visual Studio Code](#visual-studio-code)
@@ -27,10 +30,11 @@
     - [Continuous integration (CI)](#continuous-integration-ci) :construction:
 - :reminder_ribbon: [License](#reminder_ribbon-license)
 - :raised_hands: [Acknowledgements](#raised_hands-acknowledgements)
+
 </details>
 
 ---
-## :rocket: Installation
+## :hammer_and_wrench: Installation
 
 > [!IMPORTANT]
 > Install configuration package directly from GitHub repository.
@@ -40,7 +44,7 @@ bun add --dev --exact git+https://github.com/nndvn/cfgs.git
 ```
 
 ---
-## :hammer_and_wrench: Configuration
+## :gear: Configuration
 
 1. Add the `extends` array to your `biome.json` file:
 
@@ -69,7 +73,7 @@ bun add --dev --exact git+https://github.com/nndvn/cfgs.git
 ```
 
 ----
-## :gear: Usage
+## :computer: Usage
 
 ### Command-line interface (CLI)
 
