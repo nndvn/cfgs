@@ -10,7 +10,7 @@
 ![vscode](https://img.shields.io/github/v/release/microsoft/vscode?style=flat-square&logo=vscodium&logoColor=white&color=10069F&label=vscode)
 ![npm](https://img.shields.io/npm/v/@nndvn/cfgs?style=flat-square&logo=npm&logoColor=white&color=10069F&label=npm)
 
-My editor configurations: `[EditorConfig, VSCode, Zed, Biome, ...]`
+My editor configurations: EditorConfig, VSCode, Zed, Biome, ...
 
 <details open>
 <summary>:book: Table of Contents</summary>
@@ -152,10 +152,6 @@ Add the following settings to your `.zed/settings.json` file:
 ### Continuous integration (CI)
 
 :construction: https://biomejs.dev/recipes/continuous-integration/
-
-```bash
-biome ci .
-```
 
 ## :reminder_ribbon: License
 
