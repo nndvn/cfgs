@@ -3,10 +3,10 @@
 </p>
 
 <p align="center">
-    <img src="https://img.shields.io/github/license/nndvn/cfgs?style=flat-square&logo=opensourceinitiative&logoColor=white&color=10069F&label=license" alt="License">
-    <img src="https://img.shields.io/github/last-commit/nndvn/cfgs?style=flat-square&logo=opensourceinitiative&logoColor=white&color=10069F&label=last+commit" alt="Last commit">
-    <img src="https://img.shields.io/github/package-json/v/nndvn/cfgs?style=flat-square&logo=opensourceinitiative&logoColor=white&color=10069F&label=github" alt="Github package.json version">
-    <img src="https://img.shields.io/npm/v/@nndvn/cfgs?style=flat-square&logo=opensourceinitiative&logoColor=white&color=10069F&label=npm" alt="NPM package version">
+    <img src="https://img.shields.io/github/license/nndvn/cfgs?style=flat-square&logo=opensourceinitiative&logoColor=white&color=00acc1&label=license" alt="License">
+    <img src="https://img.shields.io/github/last-commit/nndvn/cfgs?style=flat-square&logo=opensourceinitiative&logoColor=white&color=00acc1&label=last+commit" alt="Last commit">
+    <img src="https://img.shields.io/github/package-json/v/nndvn/cfgs?style=flat-square&logo=opensourceinitiative&logoColor=white&color=00acc1&label=github" alt="Github package.json version">
+    <img src="https://img.shields.io/npm/v/@nndvn/cfgs?style=flat-square&logo=opensourceinitiative&logoColor=white&color=00acc1&label=npm" alt="NPM package version">
 </p>
 
 <!-- <p align="center">
