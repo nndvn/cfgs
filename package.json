@@ -33,7 +33,7 @@
 	"main": "biome.jsonc",
 	"name": "@nndvn/cfgs",
 	"peerDependencies": {
-		"@biomejs/biome": "2.0.6",
+		"@biomejs/biome": "2.1.1",
 		"typescript": "^5"
 	},
 	"private": true,

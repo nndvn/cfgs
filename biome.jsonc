@@ -1,7 +1,7 @@
 // Biome configuration file
 // https://biomejs.dev/reference/configuration/
 {
-	"$schema": "https://biomejs.dev/schemas/2.0.6/schema.json",
+	"$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
 	"assist": {
 		"actions": {
 			"source": {
@@ -17,6 +17,11 @@
 	"formatter": {
 		"enabled": true,
 		"indentStyle": "tab"
+	},
+	"html": {
+		"formatter": {
+			"enabled": true
+		}
 	},
 	"javascript": {
 		"formatter": {
