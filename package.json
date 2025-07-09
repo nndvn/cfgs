@@ -1,51 +1,51 @@
 {
-	"author": "NND <d@nnd.vn> (https://nnd.vn/)",
-	"bugs": {
-		"url": "https://github.com/nndvn/cfgs/issues"
-	},
-	"description": "[WIP] My editor configurations: Biome, Bun, EditorConfig, VSCode, Zed, ... 🚧",
-	"devDependencies": {
-		"@types/bun": "latest"
-	},
-	"exports": {
-		".": "./biome.jsonc",
-		"./biome": "./biome.jsonc"
-	},
-	"files": [
-		"biome.jsonc"
-	],
-	"homepage": "https://github.com/nndvn/cfgs?tab=readme-ov-file#readme",
-	"keywords": [
-		"biome",
-		"bun",
-		"config",
-		"configuration",
-		"editorconfig",
-		"formatter",
-		"javascript",
-		"json",
-		"linter",
-		"typescript",
-		"vscode",
-		"zed"
-	],
-	"license": "MIT",
-	"main": "biome.jsonc",
-	"name": "@nndvn/cfgs",
-	"peerDependencies": {
-		"@biomejs/biome": "2.1.1",
-		"typescript": "^5"
-	},
-	"private": true,
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/nndvn/cfgs.git"
-	},
-	"scripts": {
-		"check": "biome check --fix",
-		"format": "biome format --fix",
-		"lint": "biome lint  --fix"
-	},
-	"type": "module",
-	"version": "0.0.3"
+  "author": "NND <d@nnd.vn> (https://nnd.vn/)",
+  "bugs": {
+    "url": "https://github.com/nndvn/cfgs/issues"
+  },
+  "description": "[WIP] My editor configurations: Biome, Bun, EditorConfig, VSCode, Zed, ... 🚧",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "exports": {
+    ".": "./biome.jsonc",
+    "./biome": "./biome.jsonc"
+  },
+  "files": [
+    "biome.jsonc"
+  ],
+  "homepage": "https://github.com/nndvn/cfgs?tab=readme-ov-file#readme",
+  "keywords": [
+    "biome",
+    "bun",
+    "config",
+    "configuration",
+    "editorconfig",
+    "formatter",
+    "javascript",
+    "json",
+    "linter",
+    "typescript",
+    "vscode",
+    "zed"
+  ],
+  "license": "MIT",
+  "main": "biome.jsonc",
+  "name": "@nndvn/cfgs",
+  "peerDependencies": {
+    "@biomejs/biome": "2.1.1",
+    "typescript": "^5"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nndvn/cfgs.git"
+  },
+  "scripts": {
+    "check": "biome check --fix",
+    "format": "biome format --fix",
+    "lint": "biome lint  --fix"
+  },
+  "type": "module",
+  "version": "0.0.3"
 }

@@ -2,46 +2,62 @@
 // https://zed.dev/docs/configuring-zed#settings-files
 // https://biomejs.dev/reference/zed/
 {
-	"auto_install_extensions": {
-		"biome": true
-	},
-	"code_actions_on_format": {
-		"source.action.useSortedKeys.biome": true,
-		"source.fixAll.biome": true,
-		"source.organizeImports.biome": true
-	},
-	"file_types": {
-		"Shell Script": [".editorconfig"]
-	},
-	"formatter": {
-		"language_server": {
-			"name": "biome"
-		}
-	}
-	// "languages": {
-	//   "JavaScript": {
-	//     "formatter": {
-	//       "language_server": {
-	//         "name": "biome"
-	//       }
-	//     },
-	//     "code_actions_on_format": {
-	//       "source.organizeImports.biome": true,
-	//       "source.fixAll.biome": true,
-	//       "source.action.useSortedKeys.biome": true
-	//     }
-	//   },
-	//   "TypeScript": {
-	//     "formatter": {
-	//       "language_server": {
-	//         "name": "biome"
-	//       }
-	//     },
-	//     "code_actions_on_format": {
-	//       "source.organizeImports.biome": true,
-	//       "source.fixAll.biome": true,
-	//       "source.action.useSortedKeys.biome": true
-	//     }
-	//   }
-	// }
+  "auto_install_extensions": {
+    "biome": true
+  },
+  "code_actions_on_format": {
+    "source.fixAll.biome": true
+  },
+  "file_types": {
+    "Shell Script": [".editorconfig"]
+  },
+  "formatter": {
+    "language_server": {
+      "name": "biome"
+    }
+  },
+  "languages": {
+    "JavaScript": {
+      "code_actions_on_format": {
+        "source.action.useSortedKeys.biome": true,
+        "source.organizeImports.biome": true
+      },
+      "formatter": {
+        "language_server": {
+          "name": "biome"
+        }
+      }
+    },
+    "JSON": {
+      "code_actions_on_format": {
+        "source.action.useSortedKeys.biome": false
+      },
+      "formatter": {
+        "language_server": {
+          "name": "biome"
+        }
+      }
+    },
+    "JSONC": {
+      "code_actions_on_format": {
+        "source.action.useSortedKeys.biome": false
+      },
+      "formatter": {
+        "language_server": {
+          "name": "biome"
+        }
+      }
+    },
+    "TypeScript": {
+      "code_actions_on_format": {
+        "source.action.useSortedKeys.biome": true,
+        "source.organizeImports.biome": true
+      },
+      "formatter": {
+        "language_server": {
+          "name": "biome"
+        }
+      }
+    }
+  }
 }

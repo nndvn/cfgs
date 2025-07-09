@@ -2,7 +2,7 @@
 // https://code.visualstudio.com/docs/configure/settings#_workspace-settings
 // https://biomejs.dev/reference/vscode/
 {
-	"[javascript][typescript]": {
+	"[javascript][typescript][json]": {
 		"editor.codeActionsOnSave": {
 			"source.fixAll.biome": "explicit",
 			"source.organizeImports.biome": "explicit"
