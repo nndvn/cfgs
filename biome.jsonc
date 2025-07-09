@@ -5,10 +5,16 @@
     "actions": {
       "source": {
         "organizeImports": "on",
+        "useSortedAttributes": "on",
         "useSortedKeys": "on"
       }
     },
     "enabled": true
+  },
+  "css": {
+    "formatter": {
+      "enabled": true
+    }
   },
   "files": {
     "ignoreUnknown": false
@@ -36,7 +42,7 @@
     },
     "parser": {
       "allowComments": true,
-      "allowTrailingCommas": false
+      "allowTrailingCommas": true
     }
   },
   "linter": {
