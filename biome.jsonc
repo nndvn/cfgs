@@ -50,11 +50,11 @@
       "recommended": true
     }
   },
-  // "overrides": [
-  //   {
-  //     "includes": ["*.astro", "*.vue"]
-  //   }
-  // ],
+  "overrides": [
+    {
+      "includes": ["*.astro", "*.vue"]
+    }
+  ],
   "vcs": {
     "clientKind": "git",
     "enabled": false,
