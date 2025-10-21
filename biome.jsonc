@@ -18,7 +18,7 @@
   },
   "files": {
     "ignoreUnknown": false,
-    "includes": ["**", "!package.json", "!tsconfig.json"]
+    "includes": ["**", "!package.json", "!tsconfig.json", "!bun.lock"]
   },
   "formatter": {
     "useEditorconfig": true
