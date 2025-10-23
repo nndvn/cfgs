@@ -5,7 +5,7 @@
   },
   "description": "[WIP] My editor configurations: Biome, Bun, EditorConfig, VSCode, Zed, ... 🚧",
   "devDependencies": {
-    "@types/bun": "^1.2.22"
+    "@types/bun": "^1.3.0"
   },
   "exports": {
     ".": "./biome.jsonc",
@@ -33,8 +33,8 @@
   "main": "biome.jsonc",
   "name": "@nndvn/cfgs",
   "peerDependencies": {
-    "@biomejs/biome": "2.2.6",
-    "typescript": "^5.9.2"
+    "@biomejs/biome": "2.2.7",
+    "typescript": "^5.9.3"
   },
   "private": true,
   "repository": {
